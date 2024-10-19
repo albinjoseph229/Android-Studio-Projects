@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AsyncTaskApp</string>
+    <string name="result_will_appear_here">Result will appear here</string>
+    <string name="start_task">Start Task</string>
+</resources>

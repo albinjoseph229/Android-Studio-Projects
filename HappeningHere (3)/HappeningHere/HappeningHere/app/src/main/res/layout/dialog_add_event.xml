@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Event ID (Read-only or automatically generated) -->
+    <EditText
+        android:id="@+id/eventId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Event ID"
+        android:inputType="number"
+        android:enabled="false" />
+
+    <!-- Event Name -->
+    <EditText
+        android:id="@+id/eventName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Event Name" />
+
+    <!-- Event Description -->
+    <EditText
+        android:id="@+id/eventDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Event Description" />
+
+    <!-- Event Date -->
+    <EditText
+        android:id="@+id/eventDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Event Date (YYYY-MM-DD)" />
+
+    <!-- Event Place -->
+    <EditText
+        android:id="@+id/eventPlace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Event Place" />
+
+    <!-- Add Button -->
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Event" />
+
+</LinearLayout>

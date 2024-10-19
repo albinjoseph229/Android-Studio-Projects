@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">functionsDemo</string>
+    <string name="clickhere">ClickHere</string>
+    <string name="time_and_date_in_longformat">Time And Date In LongFormat</string>
+    <string name="date_and_time_in_differentformat">Date And TIme in DifferentFormat</string>
+</resources>

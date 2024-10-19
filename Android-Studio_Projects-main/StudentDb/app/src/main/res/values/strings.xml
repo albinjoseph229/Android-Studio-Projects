@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">StudentDb</string>
+    <string name="add_student">ADD STUDENT</string>
+    <string name="find_a_student_by_name">FIND A STUDENT BY NAME</string>
+    <string name="delete_student">DELETE STUDENT</string>
+    <string name="enter_the_student_course">Enter the Student Course</string>
+    <string name="enter_the_semester">Enter the semester</string>
+    <string name="enter_the_student_name">Enter the Student Name</string>
+    <string name="update_student">UPDATE STUDENT</string>
+</resources>

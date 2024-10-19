@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="@string/profile"
+        android:id="@+id/menuProfile"/>
+    <item
+        android:title="@string/setting"
+        android:id="@+id/menusetting"/>
+    <item
+        android:title="@string/more_option"
+        android:id="@+id/menumore"/>
+    <item
+        android:title="@string/exit"
+        android:id="@+id/menuExit"/>
+
+</menu>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">menusdemo</string>
+    <string name="submenu">submenu</string>
+    <string name="submenu_item1">submenu_item1</string>
+    <string name="submenu_item2">submenu_item2</string>
+    <string name="open_a_project">open_a_project</string>
+    <string name="help">help</string>
+    <string name="group_item1">group_item1</string>
+    <string name="create_new_project">create_new_project</string>
+    <string name="group_item2">group_item2</string>
+    <string name="click_me">Click Me</string>
+    <string name="long_press_me">Long press me!</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="android">Android</string>
+    <string name="java">Java</string>
+    <string name="kotlin">Kotlin</string>
+    <string name="react_native">React Native</string>
+    <string name="exit">Exit</string>
+    <string name="profile">Profile</string>
+    <string name="more_option">More Option</string>
+    <string name="setting">Setting</string>
+</resources>

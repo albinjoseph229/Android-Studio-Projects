@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">layoutsDemo</string>
+    <string name="constraintlayout">ConstraintLayout</string>
+    <string name="linearlayout">LinearLayout</string>
+    <string name="relativelayout">R\nE\nL\nA\nT\nI\nV\nE\nL\nA\nY\nO\nU\nT</string>
+    <string name="layoutdemos">LayoutDemos</string>
+    <string name="framelayout">FrameLayout</string>
+    <string name="row_1_column_1">Row 1, Column 1</string>
+    <string name="row_1_column_2">Row 1, Column 2</string>
+    <string name="row_2_column_1">Row 2, Column 1</string>
+    <string name="row_2_column_2">Row 2, Column 2</string>
+    <string name="row_3_column_1">Row 3, Column 1</string>
+    <string name="row_3_column_2">Row 3, Column 2</string>
+    <string name="row_4_column_1">Row 4, Column 1</string>
+    <string name="row_4_column_2">Row 4, Column 2</string>
+    <string name="tablelayout">TableLayout</string>
+</resources>

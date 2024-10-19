@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FunctionSample</string>
+    <string name="sample_app">Sample App</string>
+    <string name="name">Name</string>
+    <string name="enter_the_app_name">Enter The App Name</string>
+    <string name="ok">Ok</string>
+    <string name="enter_name">Enter Name:</string>
+    <string name="set">Set</string>
+    <string name="button">Button</string>
+    <string name="reset">Reset</string>
+</resources>

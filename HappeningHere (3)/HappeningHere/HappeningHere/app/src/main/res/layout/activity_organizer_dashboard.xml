@@ -1,0 +1,57 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Organizer Dashboard"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Event"
+            android:onClick="showAddEventDialog"
+            android:layout_marginBottom="8dp" />
+
+        <!-- EditText for Event ID -->
+        <EditText
+            android:id="@+id/eventId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Event ID"
+            android:layout_marginBottom="8dp"
+            android:inputType="number" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Remove Event"
+            android:onClick="removeEvent"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Events"
+            android:onClick="viewEvents"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Registrations"
+            android:onClick="viewRegistrations"
+            android:layout_marginBottom="8dp" />
+    </LinearLayout>
+</ScrollView>
