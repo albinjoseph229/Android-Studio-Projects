@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">DateTimeApp</string>
+    <string name="altdateview">altDateView</string>
+    <string name="alttimeview">altTimeView</string>
+    <string name="dateview">dateView</string>
+    <string name="timeview">timeView</string>
 </resources>

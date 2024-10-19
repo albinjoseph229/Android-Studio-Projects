@@ -7,13 +7,44 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+    <LinearLayout
+        android:layout_width="415dp"
+        android:layout_height="723dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        tools:ignore="VisualLintBounds">
 
+        <TextView
+            android:id="@+id/dateView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dateview"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/timeView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/timeview"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/altDateView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/altdateview"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/altTimeView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/alttimeview"
+            android:textSize="20sp" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
