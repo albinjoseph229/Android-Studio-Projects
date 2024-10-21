@@ -1,6 +1,10 @@
 package com.example.intentapp;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,6 +13,8 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
+
+    private Button buttonExplicit,buttonImplicitCall,buttonImplicitWeb;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +25,36 @@ public class MainActivity extends AppCompatActivity {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
+        });
+
+        buttonExplicit=findViewById(R.id.buttonExplicit);
+        buttonImplicitCall=findViewById(R.id.buttonImplicitCall);
+        buttonImplicitWeb=findViewById(R.id.buttonImplicitWeb);
+
+        buttonExplicit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent explicitIntent=new Intent(MainActivity.this,SecondActivity.class);
+                startActivity(explicitIntent);
+            }
+        });
+
+        buttonImplicitWeb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent implicitWebIntent=new Intent(Intent.ACTION_VIEW);
+                implicitWebIntent.setData(Uri.parse("https://www.google.com"));
+                startActivity(implicitWebIntent);
+            }
+        });
+
+        buttonImplicitCall.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent implicitCallIntent=new Intent(Intent.ACTION_DIAL);
+                implicitCallIntent.setData(Uri.parse("tel:+123456789"));
+                startActivity(implicitCallIntent);
+            }
         });
     }
 }
